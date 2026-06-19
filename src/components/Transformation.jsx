@@ -28,12 +28,16 @@ function Transformation() {
                             with professional guidance and modern equipment.
                         </p>
 
-                        <a
-                            href="tel:9701433281"
-                            className="inline-block mt-8 bg-yellow-500 text-black px-8 py-4 rounded-full font-bold"
+                        <button
+                            onClick={() =>
+                                document.getElementById("contact")?.scrollIntoView({
+                                    behavior: "smooth",
+                                })
+                            }
+                            className="inline-block mt-8 bg-yellow-500 text-black px-8 py-4 rounded-full font-bold hover:bg-yellow-400 transition"
                         >
                             Start Today
-                        </a>
+                        </button>
                     </div>
 
                 </div>

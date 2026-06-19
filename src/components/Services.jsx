@@ -118,14 +118,21 @@ function Services() {
 
                             {/* Button */}
                             <button
+                                onClick={() =>
+                                    document.getElementById("contact")?.scrollIntoView({
+                                        behavior: "smooth",
+                                    })
+                                }
                                 className="
-                  relative z-10
-                  mt-6
-                  text-yellow-500
-                  font-semibold
-                  hover:text-yellow-400
-                  transition
-                "
+                                 relative z-10
+                                mt-6
+                                text-yellow-500
+                                font-semibold
+                                hover:text-yellow-400
+                                transition-all
+                                duration-300
+                               cursor-pointer"
+
                             >
                                 Learn More →
                             </button>
