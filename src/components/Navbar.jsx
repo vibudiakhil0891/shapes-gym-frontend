@@ -15,9 +15,9 @@ function Navbar() {
                         className="h-14"
                     />
 
-                    <h1 className="text-4xl font-black tracking-[6px] bg-gradient-to-r from-yellow-300 via-yellow-500 to-yellow-700 bg-clip-text text-transparent">
+                    {/* <h1 className="text-4xl font-black tracking-[6px] bg-gradient-to-r from-yellow-300 via-yellow-500 to-yellow-700 bg-clip-text text-transparent">
                         SHAPES GYM
-                    </h1>
+                    </h1> */}
                 </div>
 
                 <ul className="hidden md:flex gap-8 text-white font-medium">
