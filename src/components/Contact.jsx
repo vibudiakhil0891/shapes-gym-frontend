@@ -24,7 +24,7 @@ function Contact() {
                         </h3>
 
                         <p className="text-gray-400 mt-6">
-                            📞 +91 97014 33281
+                            📞 +91 9701433281
                         </p>
 
                         <p className="text-gray-400 mt-4">

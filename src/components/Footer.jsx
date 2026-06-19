@@ -10,7 +10,7 @@ function Footer() {
 
                 {/* Tagline */}
                 <p className="text-gray-400 mt-4 text-lg">
-                    Legacy of Strength Since 2013
+                    Legacy of Strength Since 2022
                 </p>
 
                 {/* Divider */}
@@ -18,7 +18,7 @@ function Footer() {
 
                 {/* Copyright */}
                 <p className="text-gray-500 text-sm">
-                    © 2026 Shapes Gym Tirupati. All Rights Reserved.
+                    © 2022 Shapes Gym Tirupati. All Rights Reserved.
                 </p>
 
             </div>

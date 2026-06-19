@@ -26,7 +26,7 @@ function Hero() {
                 </h1>
 
                 <p className="text-xl md:text-2xl text-gray-300 mt-4">
-                    Legacy Of Strength Since 2013
+                    Legacy Of Strength Since 2022
                 </p>
 
                 <h2 className="text-3xl md:text-5xl font-bold text-white mt-6">

@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 
 function About() {
+    const yearsExperience = new Date().getFullYear() - 2022;
+
     return (
         <section
             id="about"
@@ -30,25 +32,26 @@ function About() {
                     </h4>
 
                     <h2 className="text-5xl font-bold mt-3">
-                        Legacy Of Strength Since 2013
+                        Building Strength Since 2022
                     </h2>
 
                     <p className="mt-6 text-gray-400 leading-8">
-                        Shapes Gym Tirupati has been helping fitness enthusiasts
-                        achieve their goals through professional training,
-                        modern equipment and a motivating environment.
+                        Shapes Gym Tirupati is dedicated to helping individuals
+                        achieve their fitness goals through professional training,
+                        modern equipment, and a motivating workout environment.
                     </p>
 
                     <p className="mt-4 text-gray-400 leading-8">
                         Whether your goal is weight loss, muscle gain,
-                        strength training or overall fitness,
-                        our trainers are here to guide you.
+                        strength training, or overall fitness, our experienced
+                        trainers are committed to guiding and supporting you
+                        every step of the way.
                     </p>
 
                     <div className="grid grid-cols-2 gap-6 mt-10">
                         <div>
                             <h3 className="text-4xl text-yellow-500 font-bold">
-                                10+
+                                {yearsExperience}+
                             </h3>
                             <p>Years Experience</p>
                         </div>

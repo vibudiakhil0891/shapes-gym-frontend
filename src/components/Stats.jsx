@@ -1,6 +1,6 @@
 function Stats() {
     const stats = [
-        { number: "10+", label: "Years Experience" },
+        { number: "5+", label: "Years Experience" },
         { number: "100+", label: "Active Members" },
         { number: "15+", label: "Fitness Programs" },
         { number: "4.9★", label: "Google Rating" },
